@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandapala Organization</title>
+</head>
+   <body> 
+        <h1>Welcome to Mandapala Organization</h1>
+
+    <div class="header">
+        <img src="logo.png" >
+        <nav>
+            <a href="Kegiatan.html">Kegiatan</a>
+            <a href="Anggota.html">Anggota</a>
+            <a href="Pembina.html">Pembina</a>
+        </nav>
+    </div>
+
+    <div class="slideshow">
+        <img src="p.jpg" >
+        <img src="eks.jpg" >
+        <img src="bg.JPG" >
+    </div>
+
+    <div class="container">
+    <div class="card">
+        <img src="dulu.jpg" >
+        <div class="card-content">
+            <h3>Mandapala sebagai Organisasi Pecinta Alam</h3>
+            <p>Mandapala adalah organisasi yang terdiri dari individu-individu dengan
+                 kecintaan mendalam terhadap alam. Anggotanya aktif dalam berbagai kegiatan yang mendukung 
+                 pelestarian lingkungan, seperti pendakian gunung, penjelajahan hutan, dan aksi kebersihan alam. 
+                 Mandapala tidak hanya berfokus pada eksplorasi alam tetapi juga pada edukasi dan kampanye lingkungan untuk 
+                meningkatkan kesadaran masyarakat akan pentingnya menjaga kelestarian alam.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="ftbr.JPG" alt="Mandapala Image 2">
+        <div class="card-content">
+            <h3>Solidaritas Tinggi dalam Mandapala</h3>
+            <p>Mandapala dibangun di atas dasar solidaritas yang kuat di antara para anggotanya. 
+                Setiap anggota Mandapala saling mendukung dalam berbagai situasi, baik dalam kegiatan di alam bebas 
+                maupun dalam kehidupan sehari-hari. Solidaritas ini terlihat jelas dalam kerja sama yang solid saat 
+                menghadapi tantangan alam, serta dalam kepedulian dan bantuan antar anggota ketika ada yang 
+                membutuhkan. Nilai solidaritas ini menjadi salah 
+                satu pilar utama yang memperkokoh Mandapala sebagai komunitas yang kompak dan harmonis.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="ak.jpg">
+        <div class="card-content">
+            <h3>Jiwa Kekeluargaan yang Erat di Mandapala</h3>
+            <p>Mandapala memiliki jiwa kekeluargaan yang sangat erat, 
+                yang tercermin dalam hubungan antar anggota dan alumni.
+                 Hubungan ini tidak hanya berlangsung selama masa keanggotaan aktif, 
+                 tetapi terus berlanjut setelah menjadi alumni. Banyak alumni yang tetap berkontribusi 
+                 dan berpartisipasi dalam kegiatan Mandapala, baik sebagai mentor, penyelenggara kegiatan,
+                  atau sekadar berbagi pengalaman dan pengetahuan. Jiwa kekeluargaan yang erat ini menjadikan
+                   Mandapala bukan hanya sekadar organisasi, tetapi sebuah keluarga besar yang saling mendukung 
+                   dan menjaga satu sama lain sepanjang waktu.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 Mandapala. All rights reserved.
+    </div>
+
+</body>
+
+
+<style>
+    
+    .body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+    h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+    color: black ;
+}
+
+    .header {
+        display: flex;
+        align-items: center;
+        background-color: lightblue;
+        padding: 10px 20px;
+        color: white;
+    }
+
+    .header img {
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    .header nav {
+        margin-left: auto;
+    }
+
+    .header nav a {
+        color: yellow gb(238, 242, 29);
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+    .header nav a:hover {
+        text-decoration: underline;
+    }
+
+    .slideshow {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        overflow: hidden;
+    }
+
+    .slideshow img {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        position: absolute;
+        animation: slideshow 15s infinite;
+    }
+
+    @keyframes slideshow {
+        0% {opacity: 1;}
+        33% {opacity: 0;}
+        66% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+
+    .slideshow img:nth-child(2) {
+        animation-delay: 5s;
+    }
+
+    .slideshow img:nth-child(3) {
+        animation-delay: 10s;
+    }
+
+    .content {
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+    }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h3 {
+            margin: 0 0 10px;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .card-content p {
+            margin: 0;
+            color: #666;
+        }
+        .footer {
+            text-align: center;
+            padding: 5px;
+            background-color: #88AAFF;
+            color: black;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+}
+</style>
+</html>
